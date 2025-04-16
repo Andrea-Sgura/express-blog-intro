@@ -51,7 +51,9 @@ app.get(`/bacheca`, (req, res) => {
             image: "imgs/blog-sport.jpg",
             tags: ["routine", "corsa", "dedizione"]
         }
-    ]
+    ];
+
+    res.json(bacheca);
 })
 
 // Inserimento del metodo che lascia in ascolto il nostro server
